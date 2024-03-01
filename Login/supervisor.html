@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      button:hover {
+        background-color: rgb(0, 0, 0, 0.2) !important ;
+        color: white !important;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url("images.jpeg") no-repeat;
+        background-size: cover;
+        background-image: center;
+      }
+
+      .wrapper {
+        width: 420px;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        color: #fff;
+        border-radius: 10px;
+        padding: 30px 40px;
+      }
+      .wrapper h1 {
+        font-size: 36px;
+        text-align: center;
+      }
+
+      .wrapper .input-box {
+        width: 70%;
+        height: px;
+        margin: 30px;
+      }
+
+      .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: solid rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px 45px 20px 20px;
+      }
+
+      .input-box input::placeholder {
+        color: #fff;
+      }
+
+      .input-box i {
+        position: left;
+        right: 20px;
+        top: 50%;
+        transform: translate(-50%);
+        font-size: 20px;
+      }
+
+      .wrapper .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px;
+      }
+
+      .remember-forgot label input {
+        accent-color: #fff;
+        margin: 3px;
+      }
+
+      .remember-forgot a {
+        color: #fff;
+        text-decoration: #fff;
+      }
+
+      .remember-forgot a:hover {
+        text-decoration: underline;
+        color: #fff;
+      }
+
+      .wrapper .btn {
+        width: 100%;
+        height: 45px;
+        background: #fff;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        font-size: 16px;
+        color: #333;
+        font-weight: 600;
+      }
+
+      .wrapper .register-link {
+        font-size: 14.5px;
+        text-align: center;
+        margin: 20px 0 15px;
+      }
+
+      .register-link p a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .register-link p a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <h1>Login</h1>
+        <div class="input-box">
+          <i class="bx bx-user"></i>
+          <input type="text" placeholder="WorkerID" required />
+        </div>
+
+        <div class="input-box">
+          <i class="bx bx-lock-alt"></i>
+          <input type="password" placeholder="Password" required />
+        </div>
+
+        <div class="remember forgot">
+          <label><input type="checkbox" /> Remember me</label>
+          <br /><br />
+        </div>
+
+        <button type="submit" class="btn" id="login">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
