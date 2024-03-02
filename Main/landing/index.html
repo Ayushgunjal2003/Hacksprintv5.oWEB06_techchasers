@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User view</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section>
+      <!-- navbar -->
+      <div class="container">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        >
+          <a
+            href="#"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <img src="../images/Logo.png" alt="logo" style="max-height: 40px" />
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link"
+                style="color: green; font-weight: bolder"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#about"
+                class="nav-link"
+                style="color: green; font-weight: bolder"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#services"
+                class="nav-link"
+                style="color: green; font-weight: bolder"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#contactus"
+                class="nav-link"
+                style="color: green; font-weight: bolder"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+    <!-- news -->
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/sl1.png" class="d-block" alt="..." />
+            <div class="carousel-caption d-none d-md-flex">
+              <h5 style="max-width: 420px">
+                The CoWIN vaccine certificate is a digital document issued by
+                the Government of India through the CoWIN portal. <br /><br />
+                You can download your CoWIN vaccine certificate through the
+                CoWIN portal or the Aarogya Setu app. Simply log in with your
+                registered mobile number and download the certificate from the
+                "Certificate" section. You can choose to download a PDF or save
+                it to your digital wallet for easy access.
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/sl2.png" class="" alt="..." />
+            <div class="carousel-caption d-none d-md-flex">
+              <h5 style="max-width: 400px">
+                You should use your Aadhaar without any hesitation for proving
+                your identity and doing transactions, just like you use your
+                bank account number, PAN card, debit card, credit card, etc.,
+                wherever required. What UIDAI has advised is that Aadhaar card
+                should be freely used for proving identity and doing
+                transactions, but should not be put on public platforms like
+                Twitter, Facebook, etc. People give their debit card or credit
+                card details or cheque (which has bank account number) when they
+                purchase goods, or pay school fee, water, electricity, telephone
+                and other utility bills, etc.
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/sl3.png" class="d-block" alt="..." />
+            <div class="carousel-caption d-none d-md-flex">
+              <h5 style="max-width: 300px">
+                किमान १८ वर्षांवरील महिला अर्ज करू शकतात. <br />
+                या योजनेद्वारे त्यांच्याकडे एलपीजी कनेक्शन नसावे. <br />
+                बीपीएल कुटुंबातील असणे आवश्यक आहे. <br />
+                महिलांची आर्थिक स्थिती दुर्बल घटकातील असावी. <br />
+                एजन्सी भारत गॅस, इंडियन गॅस, एचपी गॅस या तीन पर्यायांद्वारे
+                महिला गॅस एजन्सी निवडू शकतात. <br />
+                या योजनेद्वारे लाभार्थ्यांना निवडलेल्या गॅस एजन्सीमार्फत गॅस
+                मिळेल.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- about -->
+    <section id="about">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="../images/community.jpg"
+              class="d-block mx-lg-auto img-fluid"
+              style="height: 400px"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              About Us
+            </h1>
+            <br /><br /><br />
+            <p class="lead">
+              We are a passionate team of community advocates, technologists,
+              and civic-minded individuals who are dedicated to building bridges
+              between neighbors, promoting civic engagement, and strengthening
+              the fabric of our local communities. With a shared commitment to
+              transparency, accountability, and social responsibility, we strive
+              to provide a platform where residents can connect, share ideas,
+              and work together to address common challenges and opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services  -->
+    <section id="services">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6"></div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Services
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-around">
+        <div class="card" style="width: 18rem">
+          <img src="../images/Logo.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="../images/Logo.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="../images/Logo.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div style="display: flex; justify-content: space-around">
+        <div class="card" style="width: 18rem">
+          <img src="../images/Logo.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="../images/Logo.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="../images/Logo.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us -->
+
+    <section id="contactus">
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+              Contact Us
+            </h1> <br><br><br>
+            <p class="col-lg-10 fs-4">
+              Thank you for your interest in <strong>Civic Connect</strong>. We
+              value your feedback, inquiries, and suggestions. Please feel free
+              to reach out to us using the contact information provided below.
+              We look forward to hearing from you!
+            </p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <h5>
+              General Inquiries: <br><br>Email: info@websitename.com <br>Phone: +1 (123)
+              456-7890 <br>Address: [Your Address Here] <br><br>For technical
+              assistance, account-related questions, or any other support
+              inquiries, please contact our support team:<br><br>Email:
+              support@websitename.com <br>Phone: +1 (123) 456-7890 <br>Support Hours:
+              Monday - Friday, 9:00 AM - 5:00 PM (EST)
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+<hr>
+    <!-- footer  -->
+
+    <section>
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Features</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Features</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Features</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    class="form-control"
+                    placeholder="Email address"
+                    fdprocessedid="pcn1uf"
+                  />
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    fdprocessedid="16tm3j"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p>© 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-body-emphasis" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter"></use></svg></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-body-emphasis" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use></svg></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-body-emphasis" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook"></use></svg></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
